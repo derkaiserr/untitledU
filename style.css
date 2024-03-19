@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+.form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid #000; */
+  width: 50vw;
+  height: 100vh;
+  background-color: #f9fbf8;
+  color: #1e373b;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.ema input {
+  margin-bottom: 0.5rem;
+}
+
+.form input {
+  width: 100%;
+  height: 2rem;
+  border: 1px solid #d9dddc;
+  padding-left: 0.5rem;
+  font-size: xx-small;
+  opacity: 0.8;
+  font-weight: bolder;
+}
+.form label {
+  font-size: xx-small;
+  font-weight: bold;
+  color: #1e373b;
+}
+
+input[type='text'] {
+  letter-spacing: 1px;
+  margin-top: 0.2rem;
+}
+
+.title {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.title p {
+  opacity: 0.8;
+  word-spacing: -1px;
+  letter-spacing: -0.6px;
+  font-size: smaller;
+  font-weight: bold;
+  margin-top: -5%;
+  margin-bottom: 7%;
+}
+
+.form {
+  width: 50%;
+}
+
+.img-section {
+  width: 50vw;
+}
+
+.container {
+  /* background-image: url(images/david.JPG);
+  background-size: cover;
+  background-position: top center; */
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.container img {
+  max-width: 50%;
+  height: 100%;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  /* margin-left: -17.8rem; */
+  margin-left: -7.2rem;
+  padding-right: -0.5rem;
+  width: 80%;
+}
+
+.checkbox {
+  transform: scale(0.4);
+}
+
+.checkmark {
+  /* margin-left: -17.5rem; */
+  margin-left: -6.5rem;
+  font-weight: bold;
+}
+
+.check {
+  display: flex;
+  justify-content: space-between;
+}
+
+.check h6 {
+  color: #496445;
+}
+
+.sign {
+  text-align: center;
+  font-size: small;
+}
+
+button {
+  height: 2rem;
+  width: 100%;
+  background-color: #496445;
+  color: #cde0ca;
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #496445;
+}
+
+.footer {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  font-size: small;
+}
